@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Flickr API</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Random images from <span class="blue-logo-color">flick</span><span class="pink-logo-color">r</span></h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <button type="button" id="sortAlphabeticallyBtn">Sort titles ascending</button>
+            <div class="row">
+                <div class="column">
+                    <h3>Thumbnails</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="column">
+                    <h3>Titles</h3>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div id="flickrPhotoWithTitle"></div>
+            <div id="flickrSortedPhotoWithTitle"></div>
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="JS/main.js"></script>
+
+</body>
+
+</html>

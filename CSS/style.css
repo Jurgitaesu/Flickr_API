@@ -1,0 +1,92 @@
+/******************
+CSS RESET 
+******************/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/******************
+GENERAL 
+*******************/
+
+body {
+    background-image: url(../IMG/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/******************
+HEADER 
+******************/
+
+header {
+    background-color: #202022;
+    color: white;
+    padding: 3em 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.blue-logo-color {
+    color: #0063E0;
+}
+
+.pink-logo-color {
+    color: #FF2FB0;
+}
+
+/*********************
+MAIN 
+*********************/
+
+main {
+    margin: 1em 8em;
+    font-size: 1em;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    background-color: #0063E0;
+    border: none;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    margin: 1em auto;
+    cursor: pointer;
+    border-radius: 0.7em;
+}
+
+button:hover {
+    background-color: #03479b;
+}
+
+.row {
+    display: flex;
+    text-align: center;
+}
+
+.column {
+    flex: 50%;
+    margin: auto;
+    padding: 1em;
+}
+
+.line {
+    border: 0.04em solid black;
+    margin-top: 1em;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
